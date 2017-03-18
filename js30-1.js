@@ -1,3 +1,5 @@
 $(document).ready(function(){
-    $('.key').on()
+    $('.key').on('click',function(){
+        $('.key').addClass('.onkey');
+    })
 })
