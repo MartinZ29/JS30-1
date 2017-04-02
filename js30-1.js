@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.key').on('click',function(){
+    window.addEventListener('keydown',function(e){
         $('.key').addClass('.onkey');
     
         $('.key').removeClass('.onkey');
