@@ -1,6 +1,6 @@
 $(document).ready(function(){
     window.addEventListener('keydown',function(e){
-        $('.key').addClass('.onkey');
+        $('').addClass('.onkey');
     
         $('.key').removeClass('.onkey');
     })
