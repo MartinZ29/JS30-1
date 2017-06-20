@@ -1,8 +1,8 @@
 $(document).ready(function(){
     window.addEventListener('keydown',function(e){
-        $('').addClass('.onkey');
+        $('.key').addClass('.onkey');
         audio.play();
         stop();
-        $('').removeClass('.onkey');
+        $('.key').removeClass('.onkey');
     })
 })
