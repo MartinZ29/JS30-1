@@ -7,8 +7,7 @@ $(document).ready(function(){
         const key = 
 
         $('.key').addClass('.onkey');
-        // audio.play();
-        // stop();
+        
         $('.key').removeClass('.onkey');
     })
 })
