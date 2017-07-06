@@ -7,9 +7,9 @@ $(document).ready(function(){
         audio.play();
         audio.currentTime = 0;
     
-
         $('.key').addClass('.onkey');
         
-        $('.key').removeClass('.onkey');
-    })
+        const keys = document.querySelectorAll('.key');
+        keys.forEach(key => key.addEventListener('transitionEnd',removeTransition));
+        })
 })
