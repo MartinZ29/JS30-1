@@ -9,6 +9,11 @@ $(document).ready(function(){
     
         $('.key').addClass('.onkey');
         
+        function removeTransition(e){
+            if (e.propertyName !== 'transform') return;
+            this.classList.remove('onkey');
+        }
+
         const keys = document.querySelectorAll('.key');
         keys.forEach(key => key.addEventListener('transitionEnd',removeTransition));
         })
